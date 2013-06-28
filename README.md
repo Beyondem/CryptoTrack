@@ -1,7 +1,7 @@
 CryptoTrack
 ===========
 
-Source code powering CryptoTrack.com - The Bitcoin Portfolio
+Source code powering http://CryptoTrack.com - The Bitcoin Portfolio
 
 
 Both databases in the Databases folder must be imported.
