@@ -32,7 +32,7 @@ $coinid = $coindata['id'];
 
 if (is_numeric($coinamount) && is_numeric($boughtat)){
 $time = time();
-mysql_query("INSERT INTO  `currentbitcoin`.`track_entries` (`accountid` ,`currency`,`exchangeid` ,`amount` ,`boughtat`,`added`) VALUES ('$userid',  '$coinid', '$exchange',  '$coinamount',  '$boughtat', '$time');");
+mysql_query("INSERT INTO `track_entries` (`accountid` ,`currency`,`exchangeid` ,`amount` ,`boughtat`,`added`) VALUES ('$userid',  '$coinid', '$exchange',  '$coinamount',  '$boughtat', '$time');");
 echo "1";
 }else{
 	echo "Error:Both Amount and the Bought At Price must be Numeric!";
